@@ -2,84 +2,9 @@
     background-color: cornsilk;
 }
 
-.about {
-    background-image: ;
-}
 
 body, html {
     height: 100%;
-}
-
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #0077b5;
-    color: white;
-}
-
-.fa-github {
-    background: #000000;
-    color: white;
-}
-
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-}
-
-.container {
-    padding: 0 16px;
-}
-
-.container::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.title {
-    color: grey;
-    font-size: 18px;
-}
-
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
 }
 
 
@@ -113,11 +38,127 @@ a {
 
 
 
-.col-container {
+/* Стили для соц кнопок */
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0077b5;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+/* Стили для раздела about */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after {
+    content: "";
+    clear: both;
     display: table;
-    width: 100%;
 }
-.col {
-    display: table-cell;
-    padding: 16px;
+
+.title {
+    color: grey;
+    font-size: 18px;
 }
+
+/*button {*/
+    /*border: none;*/
+    /*outline: 0;*/
+    /*display: inline-block;*/
+    /*padding: 8px;*/
+    /*color: white;*/
+    /*background-color: #000;*/
+    /*text-align: center;*/
+    /*cursor: pointer;*/
+    /*width: 100%;*/
+    /*font-size: 18px;*/
+/*}*/
+
+
+
+
+/* Стиль для футера*/
+
+.text-center {
+    text-align: center;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.col-container {*/
+    /*display: table;*/
+    /*width: 100%;*/
+/*}*/
+/*.col {*/
+    /*display: table-cell;*/
+    /*padding: 16px;*/
+/
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    /*margin-bottom: 30px;*/
+
+}
+
+
+.bg-3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+
